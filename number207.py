@@ -2,4 +2,8 @@ l,m=input().split(" ")
 n=input()
 p=n.replace(m,"")
 q=p.replace("  "," ")
-print(q)
+if(len(q)<1):
+     print("empty")
+else:
+     print(q)
+
